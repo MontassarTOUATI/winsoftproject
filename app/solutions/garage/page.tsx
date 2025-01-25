@@ -1,14 +1,14 @@
-import PageTemplate from "@/components/solutions/SolutionsTemplate";
-import comm_img from "../../app/images/commerciale.jpg";
-import analyses from "../../app/images/analyses.png";
-import personnalisable from "../../app/images/personnalisable.png";
-import sécurité from "../../app/images/sécurité.png";
-import tempsréel from "../../app/images/temps-réel.png";
+import PageTemplate from "@/components/SolutionsTemplate";
+import comm_img from "../../images/commerciale.jpg";
+import analyses from "../../images/analyses.png";
+import personnalisable from "../../images/personnalisable.png";
+import sécurité from "../../images/sécurité.png";
+import tempsréel from "../../images/temps-réel.png";
 
-const Garage = () => {
+const page = () => {
   return (
     <PageTemplate
-      title="WINSOFT COMMERCIALE PLUS"
+      title="WINSOFT GARAGE PLUS"
       subtitle="Votre allié pour une gestion commerciale simplifiée et performante"
       mainImage={comm_img}
       featureIcons={[
@@ -35,4 +35,4 @@ const Garage = () => {
   );
 };
 
-export default Garage;
+export default page;

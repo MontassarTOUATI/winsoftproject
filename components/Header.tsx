@@ -22,11 +22,11 @@ import Image from "next/image";
 const components: { title: string; href: string }[] = [
   {
     title: "Winsoft Garage Plus",
-    href: "/",
+    href: "/solutions/garage",
   },
   {
     title: "Winsoft Commerciale Plus",
-    href: "#",
+    href: "/solutions/commerciale",
   },
   {
     title: "Winsoft Coptabilité",
